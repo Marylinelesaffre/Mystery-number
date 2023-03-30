@@ -1,0 +1,21 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    height: 275px;
+    width: 775px;
+    text-align: center;
+    border-radius: 5%;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
