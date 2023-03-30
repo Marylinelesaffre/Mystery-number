@@ -11,11 +11,18 @@ body{
     text-align: center;
     border-radius: 5%;
 }
-table{
-    margin: auto;
-    border-collapse: collapse;
+
+#box {
+    height: 150px;
+    
+    
 }
-td{
+
+table{
+    border-collapse: collapse
+}
+td {
     border: 1px solid black;
     padding: 10px;
 }
+
