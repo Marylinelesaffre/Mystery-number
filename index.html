@@ -6,59 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Numéros mystère</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 
 <body>
-    <div id="container">
-        <input type="number" placeholder="entrer un chiffre" step="10">
-        <button type="button" class="btn btn-primary"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-            Tester
-        </button>
-        <div id="box">
-            <table>
-                <tr>
-                    <td>
-                        trouvez un numéro mystère <hr>
-                    </td>
-                </tr>
 
-                <tr>
-                    <td>
-                        <strong>1er essai</strong> <hr>
-                        </td>
-                    
-                </tr>
-                <tr>
-                    <td>
-                        <strong>2ème essai</strong> <hr>
-
-
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>3ème essai</strong>
-                    </td>
-                </tr>
-                
-                <button type="button" class="btn btn-primary"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                    rejouer
-                </button>
-            
-
-            </table>
-
-
-        </div>
+    <div class="container">
+        <input id="guessField" type="number" min="1" max="10" placeholder="entrer un chiffre">
+        <input id="submit" type="submit" value="Tester" class="guessSubmit">
     </div>
 
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+<div>  
+    <table>
+        <tr>
+            <td>
+                <strong>Trouve le bon numéro!</strong>
+            </td>
+        </tr>
+            <td>
+                <strong>1er essai</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>2ème essai</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>3ème essai</strong>
+            </td>
+        </tr>
+    </table>
+    </div>
 
-    <script src="script.js">
+    <script src="script.js"></script>
+</body>
 
-    </script>
+
 </body>
 
 </html>

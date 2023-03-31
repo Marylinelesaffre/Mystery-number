@@ -17,12 +17,46 @@ body{
     
     
 }
+input {
+    height: 30px;
+    width: 150px;
+    
+}
+input[type="submit" i] {
+    width: 80px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    cursor: pointer;
+}
 
 table{
-    border-collapse: collapse
-}
-td {
     border: 1px solid black;
-    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    
 }
+td{
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid blue;
+}
+
+tr:hover{
+    display: none;
+}
+
+#toggleBtn{
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+}
+
+
+
+
 
