@@ -5,48 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Numéros mystère</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Numéro mystère</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">
-        <input id="guessField" type="number" min="1" max="10" placeholder="entrer un chiffre">
-        <input id="submit" type="submit" value="Tester" class="guessSubmit">
+        <input id="number" type="number" min="1" max="10" placeholder="entrer un chiffre">
+
+        <input type="button" value="Tester" onclick="tester()" />
+        <input type="button" value="Rejouer" onclick="rejouer()" />
+
+        <span id="snpResult"></span>
+
     </div>
 
-    <div class="resultParas">
-        <p class="guesses"></p>
-        <p class="lastResult"></p>
-        <p class="lowOrHi"></p>
-    </div>
-<div>  
-    <table>
-        <tr>
-            <td>
-                <strong>Trouve le bon numéro!</strong>
-            </td>
-        </tr>
-            <td>
-                <strong>1er essai</strong>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>2ème essai</strong>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>3ème essai</strong>
-            </td>
-        </tr>
-    </table>
-    </div>
+    
+        <h1><strong>Trouve le numéro mystère!</strong></h1>
+   
+
+
+           
+
+
 
     <script src="script.js"></script>
-</body>
+
 
 
 </body>
