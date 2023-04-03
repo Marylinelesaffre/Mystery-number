@@ -15,7 +15,7 @@ function tester() {
     }
 
     if (uNum == randomNumber) {
-        document.getElementById("snpResult").innerHTML = "Gagné en " + guessCount + "1er essai!";
+        document.getElementById("snpResult").innerHTML = "Gagné en " + guessCount + "Essai!";
     }
     else if (guessCount === guessLimit) {
         document.getElementById("snpResult").innerHTML = "Perdu! le numéro était " + randomNumber + ".";

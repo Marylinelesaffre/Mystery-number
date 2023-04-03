@@ -1,4 +1,4 @@
-body{
+body {
     background: linear-gradient(to top, #ffffff 0%, #9999ff 100%);
     min-height: 100vh;
     display: flex;
@@ -15,23 +15,12 @@ body{
 
 #box {
     height: 150px;
-    
-    
+
+
 }
+
 input {
     height: 30px;
     width: 150px;
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
